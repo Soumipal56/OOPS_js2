@@ -134,7 +134,14 @@
 // but in call() we pass arguments one by one whereas in apply() we pass arguments as an array
 
 // SECTION 8
-let hey = function greet(){
-    console.log(`Hello, ${this.name}`);
-}
+// function greet() {
+//     console.log("Hello" + " " + this.name);
+// }
 
+// let person = {
+//   name: "Soumi"
+// };
+
+// let greetSoumi = greet.bind(person); 
+
+// greetSoumi(); 
